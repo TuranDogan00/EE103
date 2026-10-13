@@ -1,3 +1,8 @@
 secret = 3  
 guess = float(input("Guess the secret number: "))
-print(guess == secret)
+if guess>secret:
+    print("Too high")
+elif guess<secret:
+    print("Too low")
+else:
+    print("Correct!")            
